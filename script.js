@@ -156,3 +156,49 @@
 /******************
  * Boolean Logic
  */
+
+//  var firstNamr = 'John';
+//  var age = 25;
+
+// if (age < 13) {
+//      console.log(firstName + ' is a boy.');
+// } else if (age >= 13 && age < 20 ) {
+//     console.log(firstName + ' is a teenager.');
+// } else if (age >= 20 && age < 30) {
+//     console.log(firstName + ' is a young man.');
+// }else {
+//     console.log(firstName + ' is a man.');
+//  }
+
+
+
+
+/******************
+ * The Ternary Operator and Switch Statements
+ */
+
+//  var firsName = 'John';
+//  var age = 14;
+
+//  // Ternary Operator
+//  age >= 18 ? console.log(firstName + ' drinks beer') : console.log(firstName + ' drinks juice');
+
+// var drink = age >= 18 ? 'beer' : 'juice';
+// console.log(drink);
+
+// // Switch Statment
+// var job = 'teacher';
+// switch(job) {
+//     case 'teacher':
+//         console.log(firstName + ' teaches kids how to code');
+//         break;
+//     case 'driver': 
+//         console.log(firstName + ' drives uber');
+//         break;
+//     case 'designer':
+//         console.log(firstName + ' designs beautiful websites');
+//         break;
+//     default:
+//         console.log(firstName + ' does something else');
+// }
+
