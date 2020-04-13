@@ -119,14 +119,14 @@
  * If / else statments
  */
 
- var firstName = 'John';
- var civilStatus = 'single';
+//  var firstName = 'John';
+//  var civilStatus = 'single';
 
- if (civilStatus === 'married') {
-     console.log(firstName + 'is married!');
- } else {
-     console.log(firstName + ' will hopefully marry soon :)')
- }
+//  if (civilStatus === 'married') {
+//      console.log(firstName + 'is married!');
+//  } else {
+//      console.log(firstName + ' will hopefully marry soon :)')
+//  }
 
 //  var isMarried = true;
 // if (isMarried) {
@@ -202,3 +202,42 @@
 //         console.log(firstName + ' does something else');
 // }
 
+/*********************
+ * Truthy and Falsy values and equality operators
+ */
+
+ // falsy values: undefined, null, 0, '', Nan
+ // truthy values: not falsy values
+
+//  var height;
+
+//  height = 0;
+//  if (height || height === 0) {
+//      console.log('Variable is defined');
+//  } else {
+//     console.log('Variable has not been defined');
+//  }
+
+/*********************
+ * Coding Challege 2
+ */
+
+ var scoreJohn = (200 + 134 + 105) / 3;
+ var scoreMike = (200 + 134 + 105) / 3;
+ var scoreMary = (200 + 134 + 105) / 3;
+
+ if (scoreJohn > scoreMike && scoreJohn > scoreMary) { 
+    console.log('John\'s team has a better average score wtih ' + scoreJohn + ' points');
+ }  else if(scoreMike > scoreJohn && scoreMike > scoreMary) {
+    console.log('Mike\'s team has a better average score wtih ' + scoreMike + ' points');
+ } else if (scoreMary > scoreJohn && scoreMary > scoreMike){
+    console.log('Mary\'s team has a better average score wtih ' + scoreMary + ' points');
+ } else if (scoreJohn = scoreMike && scoreJohn > scoreMary) {
+     console.log('John and Mike\'s team tied for most points with ' + scoreMike + ' points');
+ } else if (scoreJohn = scoreMary && scoreJohn > scoreMike) {
+    console.log('John and Mary\'s team tied for most points with ' + scoreJohn + ' points');
+} else if (scoreMary = scoreMike && scoreMary > scoreJohn) {
+    console.log('Mary and Mike\'s team tied for most points with ' + scoreMike + ' points');
+}  else {
+    console.log('The teams tied with an average of ' + scoreMike + ' points');
+ }
