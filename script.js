@@ -222,22 +222,73 @@
  * Coding Challege 2
  */
 
- var scoreJohn = (200 + 134 + 105) / 3;
- var scoreMike = (200 + 134 + 105) / 3;
- var scoreMary = (200 + 134 + 105) / 3;
+//  var scoreJohn = (200 + 134 + 105) / 3;
+//  var scoreMike = (200 + 134 + 105) / 3;
+//  var scoreMary = (200 + 134 + 105) / 3;
 
- if (scoreJohn > scoreMike && scoreJohn > scoreMary) { 
-    console.log('John\'s team has a better average score wtih ' + scoreJohn + ' points');
- }  else if(scoreMike > scoreJohn && scoreMike > scoreMary) {
-    console.log('Mike\'s team has a better average score wtih ' + scoreMike + ' points');
- } else if (scoreMary > scoreJohn && scoreMary > scoreMike){
-    console.log('Mary\'s team has a better average score wtih ' + scoreMary + ' points');
- } else if (scoreJohn = scoreMike && scoreJohn > scoreMary) {
-     console.log('John and Mike\'s team tied for most points with ' + scoreMike + ' points');
- } else if (scoreJohn = scoreMary && scoreJohn > scoreMike) {
-    console.log('John and Mary\'s team tied for most points with ' + scoreJohn + ' points');
-} else if (scoreMary = scoreMike && scoreMary > scoreJohn) {
-    console.log('Mary and Mike\'s team tied for most points with ' + scoreMike + ' points');
-}  else {
-    console.log('The teams tied with an average of ' + scoreMike + ' points');
- }
+//  if (scoreJohn > scoreMike && scoreJohn > scoreMary) { 
+//     console.log('John\'s team has a better average score wtih ' + scoreJohn + ' points');
+//  }  else if(scoreMike > scoreJohn && scoreMike > scoreMary) {
+//     console.log('Mike\'s team has a better average score wtih ' + scoreMike + ' points');
+//  } else if (scoreMary > scoreJohn && scoreMary > scoreMike){
+//     console.log('Mary\'s team has a better average score wtih ' + scoreMary + ' points');
+//  } else if (scoreJohn = scoreMike && scoreJohn > scoreMary) {
+//      console.log('John and Mike\'s team tied for most points with ' + scoreMike + ' points');
+//  } else if (scoreJohn = scoreMary && scoreJohn > scoreMike) {
+//     console.log('John and Mary\'s team tied for most points with ' + scoreJohn + ' points');
+// } else if (scoreMary = scoreMike && scoreMary > scoreJohn) {
+//     console.log('Mary and Mike\'s team tied for most points with ' + scoreMike + ' points');
+// }  else {
+//     console.log('The teams tied with an average of ' + scoreMike + ' points');
+//  }
+
+/***********************
+ * Functions
+ */
+
+//  function calculateAge(birthYear) {
+//     return 2018 - birthYear;
+//  }
+
+//  var ageJohn = calculateAge(1990);
+//  var ageMike = calculateAge(1948);
+//  var ageJane = calculateAge(1969);
+//  console.log(ageJohn, ageMike, ageJane);
+
+// function yearsUntilRetirement(year, firstName) {
+//    var age = calculateAge(year);
+//    var retirement = 65 - age;
+
+//    if (retirement > 0){
+//       console.log(firstName +  ' retires in ' + retirement + ' years.');
+//    } else {
+//       console.log(firstName +  ' is already retired');
+//    }
+  
+// }
+// yearsUntilRetirement(1990, 'John');
+// yearsUntilRetirement(1948, 'Mike');
+// yearsUntilRetirement(1969, 'Jane');
+
+/*******************
+ * Function Statments and Expressions
+ */
+
+//  var whatDoYouDo = function (job, firstName) {
+//     switch(job) {
+//        case 'teacher':
+//          return firstName + ' teaches kids how to code';
+//        case 'driver':
+//          return firstName + ' drives a cab in Brooklyn';
+//        case 'designer':
+//          return firstName + ' designs beautiful websites';
+//        default:
+//           return firstName + ' does somthing else';
+//     }
+//  }
+
+//  console.log(whatDoYouDo('teacher', 'John'));
+
+/*********************
+ * Arrays
+ */
