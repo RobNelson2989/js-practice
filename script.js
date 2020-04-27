@@ -292,3 +292,148 @@
 /*********************
  * Arrays
  */
+
+ //Initialize new array
+//  var names = ['John', 'Mark', 'Jane'];
+//  var years = new Array(1990, 1969, 1948);
+
+//  console.log(names);
+//  console.log(names.length);
+
+// //Mutate Array data
+//  names[1] = 'Ben';
+//  names[names.length] = 'Marry'
+//  console.log(names);
+
+//  //Different data types
+
+//  var john = ['John', 'Smith', 1990, 'designer', false];
+
+//  john.push('blue');
+//  john.unshift('Mr.');
+//  console.log(john);
+
+//  john.pop();
+//  john.pop();
+//  john.shift();
+//  console.log(john);
+
+//  console.log(john.indexOf(1990));
+
+//  var isDesigner = john.indexOf('designer') === -1 ? 'John is not a designer' : 'John is a designer'
+//  console.log(isDesigner);
+
+/*********************
+ * Coding Challenge 3
+ */
+
+//  function tipCalculator(bill) {
+//     var percentage;
+//     if (bill < 50) {
+//        percentage = .2;
+//     } else if (bill >= 50 && bill < 200) {
+//        percentage = .15;
+//     } else {
+//        percentage = .1;
+//     }
+//     return percentage * bill;
+//  }
+//  var bills = [124, 48, 268];
+//  var tips = [tipCalculator(bills[0]),
+//             tipCalculator(bills[1]),
+//             tipCalculator(bills[2])];
+// var finalValues = [bills[0] + tips[0],
+//                    bills[1] + tips[1],
+//                    bills[2] + tips[2]];
+
+//  console.log(tips, finalValues);
+
+/*********************
+ * Objects and Properties
+ */
+ 
+ // Object literal
+//  var john = {
+//     firstName: 'John',
+//     lastName: 'Smith',
+//     birthYear: 1990,
+//     family: ['Jane', 'Mark', 'Bob', 'Emily'],
+//     job: 'teacher', 
+//     isMarried: false 
+//  };
+//  console.log(john.firstName);
+//  console.log(john['lastName']);
+//  var x = 'birthYear';
+//  console.log(john[x]);
+
+//  john.job = 'designer';
+//  john['isMarried'] = true;
+//  console.log(john);
+
+//  // new Object syntax
+//  var jane = new Object();
+//  jane.firstName = 'Jane';
+//  jane.birthYear = 1969;
+//  jane['lastName'] = 'Smith';
+//  console.log(jane);
+
+/************************
+ * Objects and Methods
+ */
+
+//   var john = {
+//     firstName: 'John',
+//     lastName: 'Smith',
+//     birthYear: 1990,
+//     family: ['Jane', 'Mark', 'Bob', 'Emily'],
+//     job: 'teacher', 
+//     isMarried: false,
+//     calcAge: function() {
+//        this.age = 2018 - this.birthYear;
+//     }
+//  };
+
+// john.calcAge();
+// console.log(john);
+
+/************************
+ * Coding Challenge 4
+ */
+
+//  var john = {
+//     fullName: 'John Smith',
+//      mass: 78,
+//    height: 1.69,
+//     calcBMI: function() {
+//        this.bmi = this.mass / (this.height * this.height);
+//        return this.bmi;
+//     }
+//  }
+
+//  var mark = {
+//    fullName: 'Mark Jones',
+//    mass: 78,
+//    height: 1.69,
+//    calcBMI: function() {
+//       this.bmi = this.mass / (this.height * this.height);
+//       return this.bmi;
+//    }
+// }
+
+// john.calcBMI();
+// mark.calcBMI();
+// console.log(john, mark);
+
+// if (john.bmi > mark.bmi) {
+//    console.log(john.fullName + ' has a higher BMI with ' + john.bmi);
+// } else if (mark.bmi > john.bmi) {
+//    console.log(mark.fullName + ' has a higher BMI with ' + mark.bmi);
+// } else {
+//    console.log(john.fullName + ' and ' + mark.fullName + ' have the same bmi with ' + mark.bmi);
+// }
+
+/**********************
+ * Loops and Iteration
+ */
+
+
